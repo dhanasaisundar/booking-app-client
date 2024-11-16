@@ -1,0 +1,12 @@
+.hotelListCon {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hotelListSubCon {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+}

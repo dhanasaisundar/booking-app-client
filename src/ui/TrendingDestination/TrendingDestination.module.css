@@ -1,0 +1,62 @@
+.destination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 55px;
+}
+
+.destinationCon {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 1.3rem;
+  align-self: flex-start;
+}
+
+.destinationItemsCon {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.destinationItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 10px;
+}
+
+.featuredImage {
+  width: calc(1100px / 3);
+  height: 15rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  filter: brightness(50%);
+}
+
+.featuredImage:hover {
+  filter: brightness(85%);
+  transition: 0.2s ease-in-out;
+}
+
+.placeInfo {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 10px;
+}
+
+.placeInfo p {
+  font-weight: 600;
+}

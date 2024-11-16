@@ -1,0 +1,170 @@
+.header {
+  width: 100%;
+  background-color: #003b95;
+  color: #fff;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.headingContainer {
+  width: 100%;
+  max-width: 1140px;
+}
+
+/* ######################################################## */
+.headerList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  margin-right: 1.8rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.headerListItem:hover {
+  background-color: #1561d3;
+  border-radius: 0.6rem;
+  transition: 0.3s ease-in-out;
+}
+
+.headerListItem .icon {
+  margin-right: 0.4rem;
+  font-size: 1.5rem;
+}
+
+/* ######################################################## */
+.headingTitleContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 2.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+/* ######################################################## */
+.searchContainer {
+  width: 100%;
+  max-width: 1140px;
+  background-color: #ffb700;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -42px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  column-gap: 5px;
+  padding: 5px;
+}
+.searchItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.searchItem span {
+  color: #979292;
+  font-size: 1.1rem;
+}
+
+.searchConIcon {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(153, 153, 153);
+}
+
+/* ################################################################# */
+.searchInputCon {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+.searchBtn {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #006ce4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ################################################################## */
+.date {
+  position: absolute;
+  top: 46px;
+  z-index: 999;
+  background-color: #fff;
+}
+/* ################################################################## */
+.options {
+  width: 100%;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px rgba(143, 143, 143, 0.5);
+  top: 46px;
+  border-radius: 5px;
+  z-index: 1000;
+  left: 50px;
+  background-color: #fff;
+}
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+.counterCon {
+  width: 30%;
+}
+.counterCon button {
+  border: none;
+  outline: none;
+  background: none;
+  margin-right: 0.3rem;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.counterCon button:hover {
+  background-color: #d4e4fd;
+}
+
+.counterCon span {
+  margin-right: 0.3rem;
+  color: #1561d3;
+}

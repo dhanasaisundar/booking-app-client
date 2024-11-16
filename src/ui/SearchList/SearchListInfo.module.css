@@ -1,0 +1,46 @@
+.searchCon {
+  background-color: #ffc700;
+  width: 30%;
+  margin: 0.8rem;
+  padding: 10px;
+  border-radius: 10px;
+  height: max-content;
+}
+
+.searchInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchInput label {
+  font-size: 1rem;
+  margin: 0.6rem 0;
+  font-weight: 500;
+}
+
+.searchInput input {
+  border: none;
+  outline: none;
+  height: 1.9rem;
+  padding: 4px;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.searchDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.SearchParameters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchParameters input {
+  width: 30%;
+  height: 1.5rem;
+  padding: 5px;
+}

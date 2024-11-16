@@ -1,0 +1,146 @@
+.hotelContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hotelContainer01 {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.3rem 0;
+}
+
+.hotelContainer001 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotelContainer001a {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hotelContainer001b {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.hotelDistance {
+  color: #003b95;
+  font-weight: 600;
+}
+
+.hotelPriceHighlight {
+  color: #008234;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.bookNow {
+  background-color: #003b95;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*#######################################################################*/
+
+.hotelContainer002 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1.2rem 0;
+  column-gap: 1.5rem;
+}
+
+.hotelDetailsTexts {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hotelDetailsPrice {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(199, 232, 255);
+  border-radius: 1rem;
+}
+
+/*#################################################################*/
+.hotelImagesCon001 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.8rem;
+  column-gap: 0.8rem;
+  margin: 1.2rem 0;
+}
+
+.hotelImagesCon002 {
+  width: 330px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.hotelImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*#################################################################*/
+/*--MODAL--*/
+.modalContainer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.402);
+  z-index: 999;
+  padding: 1rem;
+}
+
+.modalImageContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modalImage {
+  width: 80%;
+  height: 80%;
+}
+
+.modalLeftArrow,
+.modalRightArrow {
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.modalClose {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+/*##########################################*/

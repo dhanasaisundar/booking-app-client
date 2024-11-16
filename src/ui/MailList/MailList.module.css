@@ -1,0 +1,48 @@
+.mailCon {
+  width: 100%;
+  background-color: #003b95;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.mailHeading {
+  color: white;
+  font-size: 2rem;
+  margin-top: 1.2rem;
+}
+.mailInfo {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+.mailInput {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+  width: 25%;
+  padding: 0.6rem;
+}
+.mailInput input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.mailInput button {
+  background-color: white;
+  outline: none;
+  border: none;
+  color: #5287f0;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mailInput button:hover {
+  cursor: pointer;
+}

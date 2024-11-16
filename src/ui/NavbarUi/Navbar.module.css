@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #003b95;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: #fff;
+  /* font-size: 1.5rem; */
+  font-weight: 600;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #ffffff;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+.profile:hover {
+  background-color: #d4d4d463;
+  cursor: pointer;
+}
+.profile span {
+  font-weight: 600;
+}
+.profileIcon {
+  font-size: 2rem;
+}
+
+.accountLink {
+  text-decoration: none;
+}
